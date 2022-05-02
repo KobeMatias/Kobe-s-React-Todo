@@ -19,7 +19,7 @@ function App() {
   React.useEffect(() => {
     const q = query(collection(db, "Tasks"));
     const unsub = onSnapshot(q, (querySnapshot) => {
-      let taskArray = [];
+      let taskArray = []; //Temporary array for snapshot of db
       querySnapshot.forEach((doc) => {
         taskArray.push({ ...doc.data(), id: doc.id });
       });

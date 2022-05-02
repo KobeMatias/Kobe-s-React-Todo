@@ -24,7 +24,7 @@ export default function Task({
     return (
         <div className="task">
             <input
-                style={{ textDecoration: task.completed && "line-through" }}
+                style={{ textDecoration: task.Completed && "line-through" }}
                 type="text"
                 value={task.taskName === "" ? newTaskName : task.taskName}
                 className="list"
