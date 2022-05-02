@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(./Assets/TodoBackground.jpg);
+    /* background: rgb(125,132,145);
+    background: linear-gradient(0deg, rgba(125,132,145,1) 0%, rgba(237,246,249,1) 100%); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.App {
+    min-height: 100vh;
+    width: 100vh;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.Container {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 1em;
+    max-width: 40%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    border-radius: 1em;
+}
+
+/* TASK CSS */
+.taskContainer {
+    background-color: aliceblue;
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.task {
+    background-color: rgb(137, 200, 255);
+    padding: .5em;
+    margin: 1em auto;
+    width: 60%;
+}
+
+.list {
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.completeBtn, .editBtn, .deleteBtn {
+    padding: 5px;
+    margin: 8px 5px;
+}
+
+.completeBtn {
+
+}
+
+.editBtn {
+
+}
+
+.deleteBtn {
+
+}
